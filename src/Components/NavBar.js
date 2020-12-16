@@ -11,21 +11,27 @@ export default function NavBar() {
             to="/" 
             exact 
             activeClassName="text-white"
-            className="inline-flex items-center py-6 px-3 mr-4 text-red-300 karla hover-nav text-4xl font-bold tracking-widest">
+            className="inline-flex items-center py-6 px-3 mr-4 text-red-300 karla text-offwhite text-4xl font-bold tracking-widest">
               Stefan
           </NavLink>
           <NavLink 
             to="/project" 
             activeClassName="text-white"
             style={{backgroundColor: `#231429`}} 
-            className="inline-flex items-center py-3 px-3 my-6 rounded text-red-300 karla hover-nav font-bold tracking-widest">
+            className="inline-flex items-center py-3 px-3 my-6 rounded text-red-300 karla text-offwhite font-bold tracking-widest">
               Projects
           </NavLink>
           <NavLink 
             to="/about" 
             activeClassName="text-white"
-            className="inline-flex items-center py-3 px-3 my-6 rounded text-red-300 karla hover-nav font-bold tracking-widest">
+            className="inline-flex items-center py-3 px-3 my-6 rounded text-red-300 karla text-offwhite font-bold tracking-widest">
               About Me!
+          </NavLink>
+          <NavLink 
+            to="/post" 
+            activeClassName="text-white"
+            className="inline-flex items-center py-3 px-3 my-6 rounded text-red-300 karla text-offwhite font-bold tracking-widest">
+              Posts
           </NavLink>
         </nav>
         <div className="inline-flex py-3 px-3 my-6">

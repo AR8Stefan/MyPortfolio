@@ -15,6 +15,23 @@ COLORS
 // EB013B - redness
 // ECDCDC - off-white
 */
+/********
+********/
+.darkpurple-bg { 
+  color: #18131C
+}
+
+.burgundy-bg { 
+  background-color: #38112D
+} /* burgundy */
+
+.text-offwhite {
+  color: #ECDCDC;
+} /*Off-White*/
+
+.text-offwhite:hover {
+  color: #EB013B;
+}
 
 .karla {
   font-family: 'Karla', sans-serif;
@@ -31,9 +48,3 @@ COLORS
   color: #ECDCDC;
 }
 
-.hover-nav {
-  color: #ECDCDC;
-}
-.hover-nav:hover {
-  color: #EB013B;
-}
