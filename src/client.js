@@ -1,6 +1,5 @@
-import sanityClient from '@sanity/client';
+import React from 'react';
 
-export default sanityClient({
-  projectId: "l0khtndu",
-  dataset: "production"
-});
+export default About() {
+  return <h1>About Page!</h1>
+}
