@@ -31,7 +31,7 @@ export default function Post() {
       <section className="container mx-auto">
         <h1 className="karla text-2xl flex justify-center text-offwhite">My Blog Posts</h1>
         <h2 className="karla text-lg flex justify-center text-offwhite mb-12">Welcome to my page of posts.</h2>
-        <div className="grid grid:md-cols-2 grid:lg-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {postData && postData.map((post, index) => (
           <article>
             <Link to={"/post/" + post.slug.curent} key={post.slug.curent}>
