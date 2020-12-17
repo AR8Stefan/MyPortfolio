@@ -41,9 +41,9 @@ export default function Post() {
               <img 
                 src={post.mainImage.asset.url}
                 alt={post.mainImage.alt}
-                className="w-full h-full rounded-r object-cover relative"/>
-              <span className="block relative flex justify-end items-end pr-4 pb-4">
-                <h3 className="text-offwhite text-lg font-bold px-3 py-4 darkpurple-bg rounded karla">{post.title}</h3>
+                className="w-full h-full rounded-r object-cover absolute"/>
+              <span className="block relative h-full flex justify-end items-end pr-4 pb-4">
+                <h3 className="text-offwhite text-red-hover text-lg font-bold px-3 py-4 bg-black bg-opacity-60 rounded karla">{post.title}</h3>
               </span>
             </span>
             </Link>
