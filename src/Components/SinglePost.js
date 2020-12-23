@@ -32,7 +32,7 @@ export default function SinglePost() {
     .catch(console.error);
   }, [slug]);
 
-  if (!singlePost) return <div>Oh No! Something went wrong.. Please go back.</div>;
+  if (!singlePost) return <div>Oh No! Something went wrong... Please go back.</div>;
 
   return (
     <main className="burgundy-bg min-h-screen p-12">

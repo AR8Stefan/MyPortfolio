@@ -55,10 +55,10 @@ export default function Project() {
                   target="_blank" 
                   className="text-offwhite text-bold hover:underline text-red-hover text-lg"
                 >
-                  View My Project{" "}
-                    <span role="img" aria-label="right pointer">
+                  <span role="img" aria-label="right pointer">
                       👉
-                    </span>
+                    </span>{" "}View My Project
+                    
                 </a>
               </div>
             </article>

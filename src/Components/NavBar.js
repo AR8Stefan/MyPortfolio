@@ -27,12 +27,12 @@ export default function NavBar() {
             className="inline-flex items-center py-3 px-3 my-6 rounded text-red-300 karla text-offwhite text-red-hover font-bold tracking-widest">
               About Me!
           </NavLink>
-          <NavLink 
+          {/* <NavLink 
             to="/post" 
             activeClassName="text-white"
             className="inline-flex items-center py-3 px-3 my-6 rounded text-red-300 karla text-offwhite text-red-hover font-bold tracking-widest">
-              Posts
-          </NavLink>
+              Blog | Posts
+          </NavLink> */}
         </nav>
         <div className="inline-flex py-3 px-3 my-6">
           <SocialIcon 
