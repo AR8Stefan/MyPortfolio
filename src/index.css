@@ -8,22 +8,26 @@ COLORS
 *************
 ************/
 /*
-// 38112D - header/intro
+// #38112D - header/intro
 // & contact
-// 231429 - nav/footer & projects
-// 18131C - about
-// EB013B - redness
-// ECDCDC - off-white
+// #231429 - nav/footer & projects
+// #18131C - about
+// #EB013B - redness
+// #ECDCDC - off-white
 */
 /********
 ********/
 
 .darkpurple-bg { 
-  background-color: #18131C
+  background-color: #231429;
+}
+
+.almost-black {
+  background-color: #18131C;
 }
 
 .burgundy-bg { 
-  background-color: #38112D
+  background-color: #38112D;
 } /* burgundy */
 
 .text-offwhite {

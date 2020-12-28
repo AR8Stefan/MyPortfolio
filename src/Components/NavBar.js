@@ -4,37 +4,36 @@ import { SocialIcon } from 'react-social-icons';
 
 export default function NavBar() {
   return (
-    <header style={{backgroundColor: `#231429`}}>
+    <header className="almost-black">
       <div className="container mx-auto flex justify-between">
         <nav className="flex">
           <NavLink 
             to="/" 
             exact 
-            activeClassName="text-white"
-            className="inline-flex items-center py-6 px-3 mr-4 text-red-300 karla text-offwhite text-red-hover text-4xl font-bold tracking-widest">
+            activeClassName="darkpurple-bg"
+            className="inline-flex items-center py-4 px-3 mr-4 karla rounded text-offwhite text-red-hover text-3xl font-bold tracking-widest">
               Stefan
           </NavLink>
           <NavLink 
             to="/project" 
-            activeClassName="text-white"
-            style={{backgroundColor: `#231429`}} 
-            className="inline-flex items-center py-3 px-3 my-6 rounded text-red-300 karla text-offwhite text-red-hover font-bold tracking-widest">
+            activeClassName="darkpurple-bg" 
+            className="inline-flex items-center py-2 px-3 my-4 rounded karla text-offwhite text-red-hover font-bold tracking-widest">
               Projects
           </NavLink>
           <NavLink 
             to="/about" 
-            activeClassName="text-white"
-            className="inline-flex items-center py-3 px-3 my-6 rounded text-red-300 karla text-offwhite text-red-hover font-bold tracking-widest">
+            activeClassName="darkpurple-bg"
+            className="inline-flex items-center py-2 px-3 my-4 rounded karla text-offwhite text-red-hover font-bold tracking-widest">
               About Me!
           </NavLink>
           {/* <NavLink 
             to="/post" 
-            activeClassName="text-white"
-            className="inline-flex items-center py-3 px-3 my-6 rounded text-red-300 karla text-offwhite text-red-hover font-bold tracking-widest">
+            activeClassName="darkpurple-bg"
+            className="inline-flex items-center py-3 px-3 my-6 rounded karla text-offwhite text-red-hover font-bold tracking-widest">
               Blog | Posts
           </NavLink> */}
         </nav>
-        <div className="inline-flex py-3 px-3 my-6">
+        <div className="inline-flex py-3 px-3 my-2">
           <SocialIcon 
           url="https://www.linkedin.com/in/stefan-piatkov/" className="mr-4" 
           target="_blank" 
